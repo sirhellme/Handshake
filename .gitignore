@@ -1,0 +1,56 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# C++
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Large datasets and wordlists
+*.fits
+*.fits.gz
+*.h5
+*.hdf5
+rockyou.txt
+**/rockyou.txt
+
+# Generated files
+logs/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
